@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86e8b2d92c5106f1bffc729bd3fbe148",
+    "content-hash": "9b6f533e78d2639490fc6a2390998125",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -848,6 +848,42 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sor/helpers",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/S-ospina27/sor-herlpers.git",
+                "reference": "2d012433d104f486fe079641f76c9273622d86f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/S-ospina27/sor-herlpers/zipball/2d012433d104f486fe079641f76c9273622d86f2",
+                "reference": "2d012433d104f486fe079641f76c9273622d86f2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SorHelpers\\": "src/SorHelpers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Santiago Ospina",
+                    "email": "santiagoospinarojas27@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/S-ospina27/sor-herlpers/issues",
+                "source": "https://github.com/S-ospina27/sor-herlpers/tree/v1.1.0"
+            },
+            "time": "2023-01-26T18:27:36+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

@@ -17,6 +17,7 @@
         "lion/route": "^8.1",
         "vlucas/phpdotenv": "^5.5",
         "lion/sql": "^6.5",
-        "lion/request": "^5.3"
+        "lion/request": "^5.3",
+        "sor/helpers": "^1.1"
     }
 }
