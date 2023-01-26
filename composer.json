@@ -14,6 +14,9 @@
         }
     ],
     "require": {
-        "lion/route": "^8.1"
+        "lion/route": "^8.1",
+        "vlucas/phpdotenv": "^5.5",
+        "lion/sql": "^6.5",
+        "lion/request": "^5.3"
     }
 }
