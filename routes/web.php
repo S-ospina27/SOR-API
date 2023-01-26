@@ -1,9 +1,13 @@
 <?php
 
 use App\Controllers\HomeController;
-use App\Controllers\ServiceStatesController;
 use LionRoute\Route;
+use SorHelpers\Validate;
 
 Route::get("/", [HomeController::class, 'index']);
 
-Route::get('service-states', [ServiceStatesController::class, 'readServiceStates']);
+Route::post("data", function() {
+	return [
+		'status' => (new Validate)->isEmpty(request->name)
+	];
+});
