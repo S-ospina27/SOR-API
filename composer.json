@@ -19,5 +19,10 @@
         "lion/sql": "^6.5",
         "lion/request": "^5.3",
         "sor/helpers": "^1.1"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
     }
 }
