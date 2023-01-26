@@ -1,0 +1,19 @@
+{
+    "name": "sor/sor-framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SRC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Santiago Ospina",
+            "email": "santiagoospinarojas27@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.3"
+    }
+}
