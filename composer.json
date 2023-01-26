@@ -14,5 +14,6 @@
         }
     ],
     "require": {
+        "lion/route": "^8.1"
     }
 }
