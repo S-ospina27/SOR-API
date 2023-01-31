@@ -18,7 +18,8 @@
         "vlucas/phpdotenv": "^5.5",
         "lion/sql": "^6.5",
         "lion/request": "^5.3",
-        "sor/helpers": "^1.1"
+        "sor/helpers": "^1.1",
+        "nesbot/carbon": "^2.66"
     },
     "scripts": {
         "post-root-package-install": [
